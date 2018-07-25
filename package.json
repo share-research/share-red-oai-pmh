@@ -1,0 +1,31 @@
+{
+  "name": "share-red-oai-pmh",
+  "version": "1.0.0",
+  "description": "OAI Parcer ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/share-research/share-red-oai-pmh.git"
+  },
+  "keywords": [
+    "OAI",
+    "Parcer"
+  ],
+  "author": "Ryan@221b.io",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/share-research/share-red-oai-pmh/issues"
+  },
+  "homepage": "https://github.com/share-research/share-red-oai-pmh#readme",
+  "node-red": {
+    "nodes": {
+      "oai": "index.js"
+    }
+  },
+  "dependencies": {
+    "oai-pmh": "^2.0.1"
+  }
+}
